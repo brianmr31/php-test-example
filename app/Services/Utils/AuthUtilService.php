@@ -37,8 +37,7 @@ class AuthUtilService {
 public function getPublicKey(){
   $pubkey = <<< EOF
 -----BEGIN PUBLIC KEY-----
-MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMJa3MzjKQgORw68i9RWfxIsVKEDDGil
-0TVcwMddr3DFXnq/w3mD2yLHTjCYHuxF7LckXb8eic3/X583jfixOR8CAwEAAQ==
+?????????????????????????????????????????
 -----END PUBLIC KEY-----
 EOF;
   return $pubkey ;
@@ -46,14 +45,7 @@ EOF;
 public function getPrivateKey(){
   $privkey = <<< EOF
 -----BEGIN PRIVATE KEY-----
-MIIBVQIBADANBgkqhkiG9w0BAQEFAASCAT8wggE7AgEAAkEAwlrczOMpCA5HDryL
-1FZ/EixUoQMMaKXRNVzAx12vcMVeer/DeYPbIsdOMJge7EXstyRdvx6Jzf9fnzeN
-+LE5HwIDAQABAkB9vAaoTjVXTtVNhVD419RxT1iYqb43XT7RROY6lDNRwl1R4HCy
-mlZ/+WFr/KkFrPADfrPY5egMwTdSv8O33bYhAiEA4Zehwo84cZlByad8FUsp+LrD
-TFcc7K9t8IPfTUiskIcCIQDcjVev9pTsrl3EXHzxFrrmWXHk1gVBRvFXafDtYI+w
-qQIhAME4xAdF7p12HCAhgSkn4QI2zTIk5xReyfaYrPmgBpYfAiEAw/EOplX7mQqQ
-Y5OHrOj0wxFUDmnV4ViVsYN9eGcBQYECIHbKrqH2vs1YunIJEEyxd5DnqfpOQbG0
-WWUBlefAcwnK
+?????????????????????????????????????????
 -----END PRIVATE KEY-----
 EOF;
   return $privkey ;
